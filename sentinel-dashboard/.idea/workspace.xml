@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dc3ed741-4b23-47cb-8970-c6354d40842d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../content-center/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/ContentCenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/configuration/feign/GlobalFeignConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/configuration/resttemplate/RestTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/configuration/ribbon/CustomRibbonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/configuration/ribbon/UserCenterRibbonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/configuration/ribbon/rule/NacosSameClusterWeightedRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/configuration/ribbon/rule/NacosWeightedRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/configuration/swagger/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/domain/dto/share/ShareDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/domain/dto/user/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/domain/entity/mid/MidUserShare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/domain/entity/notice/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/domain/entity/share/Share.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/feign/UserCenterApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/mapper/mid/MidUserShareMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/mapper/notice/NoticeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/mapper/share/ShareMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/sentinel/block/ShareServiceBlockHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/sentinel/fallback/ShareServiceFallbackHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/service/content/ShareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/service/content/impl/ShareServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/web/content/ShareController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/com/dmcq/contentcenter/web/test/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/java/configuration/RibbonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/resources/generator/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/resources/mapper/mid/MidUserShareMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/resources/mapper/notice/NoticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/main/resources/mapper/share/ShareMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../content-center/src/test/java/com/dmcq/usercenter/UserCenterApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sentinel_Dashboard_Feature.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/DashboardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/auth/AuthAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/auth/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/auth/AuthorizationInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/auth/FakeAuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/auth/LoginAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/auth/SimpleWebAuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/client/CommandFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/client/CommandNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/client/SentinelApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/config/DashboardConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/AuthorityRuleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/DegradeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/FlowControllerV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/MachineRegistryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/MetricController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/ParamFlowRuleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/ResourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/SystemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/VersionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/cluster/ClusterAssignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/cluster/ClusterConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/gateway/GatewayApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/gateway/GatewayFlowRuleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/controller/v2/FlowControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/ApplicationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/MachineEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/MetricEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/MetricPositionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/SentinelVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/gateway/ApiDefinitionEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/gateway/ApiPredicateItemEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/gateway/GatewayFlowRuleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/gateway/GatewayParamFlowItemEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/rule/AbstractRuleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/rule/AuthorityRuleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/rule/DegradeRuleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/rule/FlowRuleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/rule/ParamFlowRuleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/rule/RuleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/rule/SystemRuleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/discovery/AppInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/discovery/AppManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/discovery/MachineDiscovery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/discovery/MachineInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/discovery/SimpleMachineDiscovery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/ResourceTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/ClusterAppAssignResultVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/ClusterAppFullAssignRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/ClusterAppSingleServerAssignRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/ClusterClientInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/ClusterGroupEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/ClusterStateSingleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/ConnectionDescriptorVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/ConnectionGroupVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/config/ClusterClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/config/ServerFlowConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/config/ServerTransportConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/request/ClusterAppAssignMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/request/ClusterClientModifyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/request/ClusterModifyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/request/ClusterServerModifyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/state/AppClusterClientStateWrapVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/state/AppClusterServerStateWrapVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/state/ClusterClientStateVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/state/ClusterRequestLimitVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/state/ClusterServerStateVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/state/ClusterStateSimpleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/state/ClusterUniversalStatePairVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/cluster/state/ClusterUniversalStateVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/vo/MachineInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/vo/MetricVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/vo/ResourceVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/vo/gateway/api/AddApiReqVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/vo/gateway/api/ApiPredicateItemVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/vo/gateway/api/UpdateApiReqVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/vo/gateway/rule/AddFlowRuleReqVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/vo/gateway/rule/GatewayParamFlowItemVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/domain/vo/gateway/rule/UpdateFlowRuleReqVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/metric/MetricFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/gateway/InMemApiDefinitionStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/gateway/InMemGatewayFlowRuleStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/metric/InMemoryMetricsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/metric/MetricsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/rule/InMemAuthorityRuleStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/rule/InMemDegradeRuleStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/rule/InMemFlowRuleStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/rule/InMemParamFlowRuleStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/rule/InMemSystemRuleStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/rule/InMemoryRuleRepositoryAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/repository/rule/RuleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/rule/DynamicRuleProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/rule/DynamicRulePublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/rule/FlowRuleApiProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/rule/FlowRuleApiPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/rule/nacos/FlowRuleNacosProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/rule/nacos/FlowRuleNacosPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/rule/nacos/NacosConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/rule/nacos/NacosConfigUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/service/ClusterAssignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/service/ClusterAssignServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/service/ClusterConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/util/AsyncUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/util/ClusterEntityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/util/MachineUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibaba/csp/sentinel/dashboard/util/VersionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/README_zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/authority.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/cluster_app_assign_manage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/cluster_app_server_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/cluster_app_server_manage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/cluster_app_server_monitor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/cluster_app_token_client_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/cluster_single.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/degrade.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/flow_v1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/flow_v2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/gateway/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/gateway/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/gateway/identity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/identity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/machine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/metric.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/param_flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/controllers/system.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/directives/header/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/directives/header/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/directives/sidebar/sidebar-search/sidebar-search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/directives/sidebar/sidebar-search/sidebar-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/directives/sidebar/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/directives/sidebar/sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/filters/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/libs/treeTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/appservice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/auth_service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/authority_service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/cluster_state_service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/degradeservice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/flow_service_v1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/flow_service_v2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/gateway/api_service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/gateway/flow_service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/identityservice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/machineservice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/metricservice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/param_flow_service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/systemservice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/scripts/services/version_service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/styles/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/styles/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/authority.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/cluster/client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/cluster/server.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/cluster_app_assign_manage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/cluster_app_client_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/cluster_app_server_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/cluster_app_server_overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/cluster_single_config.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/dashboard/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/dashboard/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/degrade.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/dialog/authority-rule-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/dialog/cluster/cluster-client-config-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/dialog/cluster/cluster-server-assign-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/dialog/cluster/cluster-server-connection-detail-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/dialog/confirm-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/dialog/degrade-rule-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/dialog/flow-rule-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/dialog/gateway/api-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/dialog/gateway/flow-rule-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/dialog/param-flow-rule-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/dialog/system-rule-dialog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/flow_v1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/flow_v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/gateway/api.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/gateway/flow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/gateway/identity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/identity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/machine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/metric.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/pagination.tpl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/param_flow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/app/views/system.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/assets/img/sentinel-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/dist/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/dist/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/dist/js/app.vendor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/index.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/index_dev.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/js/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/js/g2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/lib/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/license-stat.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/resources/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/config/DashboardConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/controller/gateway/GatewayApiControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/controller/gateway/GatewayFlowRuleControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/JsonSerializeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/datasource/entity/SentinelVersionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/discovery/AppInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/discovery/MachineInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/repository/metric/InMemoryMetricsRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/apollo/ApolloConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/apollo/ApolloConfigUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/apollo/FlowRuleApolloProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/apollo/FlowRuleApolloPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/zookeeper/FlowRuleZookeeperProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/zookeeper/FlowRuleZookeeperPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/zookeeper/ZookeeperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/rule/zookeeper/ZookeeperConfigUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alibaba/csp/sentinel/dashboard/util/VersionUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/java/com/dmcq/usercenter/UserCenterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/java/com/dmcq/usercenter/dao/bonus/BonusEventLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/java/com/dmcq/usercenter/dao/user/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/java/com/dmcq/usercenter/domain/entity/bonus/BonusEventLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/java/com/dmcq/usercenter/domain/entity/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/java/com/dmcq/usercenter/service/user/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/java/com/dmcq/usercenter/service/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/java/com/dmcq/usercenter/web/user/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/resources/generator/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/resources/generator/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/resources/mapper/bonus/BonusEventLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/main/resources/mapper/user/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../user-center/src/test/java/com/dmcq/usercenter/UserCenterApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Program Files\Apache\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Wh4WC66dc59g9m0kyW0cg1b8r2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.alibaba.csp.sentinel.dashboard.rule" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sentinel-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alibaba.csp.sentinel.dashboard.DashboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dc3ed741-4b23-47cb-8970-c6354d40842d" name="Default Changelist" comment="" />
+      <created>1579588521777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579588521777</updated>
+      <workItem from="1579588524928" duration="100000" />
+      <workItem from="1579588691967" duration="2045000" />
+      <workItem from="1579596347437" duration="4518000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="480" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579597136589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="480" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579597136589" />
+    <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1579597138746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579597138746" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1579600869210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579600869210" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1579600869210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579600869210" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1579600869210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579600869210" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1579600869210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579600869210" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579600869210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579600869210" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1579600869210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579600869210" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1579600869210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579600869210" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1579600869210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579600869210" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1579600869211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579600869211" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1579600869211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579600869211" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1579600869211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579600869211" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1579600869211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579600869211" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1579600423248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1579600423248" />
+  </component>
+</project>

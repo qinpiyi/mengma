@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        namespace: c125f447-eaef-4257-af10-e2a613574aca
+        cluster-name: BJ    # 集群名称

@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        namespace: c125f447-eaef-4257-af10-e2a613574aca   # 命名空间，隔离服务
+        cluster-name: BJ    # 集群名称
+
+logging:
+  level:
+    com.dmcq.contentcenter.feign: debug
+feign:
+  client:
+    config:
+      default:  # 全局配置，如果需要针对服务进行细粒度配置则此处将default改为服务名
+        loggerLevel: BASIC # NONE,BASIC,HEADERS,FULL
+        connectTimeout: 3000
+        readTimeout: 3000

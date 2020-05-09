@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        namespace: 0a639447-92a3-45e1-94d9-6d91fb0d8075
+        cluster-name: PROD    # 集群名称
